@@ -67,3 +67,5 @@ For questions or collaboration inquiries, please open an [issue](../../issues) o
 See my repository [NeighbourNet](https://github.com/meiosis97/NeighbourNet)
 
 
+![GRN](./grns.png)
+
