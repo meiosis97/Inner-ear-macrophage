@@ -1,5 +1,5 @@
 > **About this repository**
-> This repository stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper.
+> This repository stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper. **Note**: The full data from Boaz et al. (2025) is not currently publicly available and has therefore been removed from this repository.
 
 # Trophic and Temporal Dynamics of Macrophage Biology in Human Inner Ear Organogenesis
 
