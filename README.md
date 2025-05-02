@@ -64,6 +64,6 @@ For questions or collaboration inquiries, please open an [issue](../../issues) o
 
 ## Exciting GRNs!
 
-See my repository [NeighbourNet](../NeighbourNet/pkg)
+See my repository [NeighbourNet](https://github.com/meiosis97/NeighbourNet)
 
 
