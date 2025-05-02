@@ -1,3 +1,6 @@
+> **About this repository**
+> This repository stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper.
+
 # Trophic and Temporal Dynamics of Macrophage Biology in Human Inner Ear Organogenesis
 
 | Author | Affiliation |
