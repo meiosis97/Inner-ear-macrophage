@@ -50,11 +50,11 @@ Below is a high‑level guide to the directory structure and the purpose of each
 
 ## Reference
 
-> Bian, Zhilei, et al. "Deciphering human macrophage development at single-cell resolution." Nature 582.7813 (2020): 571-576.
-> Rajab, Nadia, et al. "An integrated analysis of human myeloid cells identifies gaps in in vitro models of in vivo biology." Stem cell reports 16.6 (2021): 1629-1643.
-> van der Valk, Wouter H., et al. "A single-cell level comparison of human inner ear organoids with the human cochlea and vestibular organs." Cell reports 42.6 (2023).
-> Browaeys, Robin, Wouter Saelens, and Yvan Saeys. "NicheNet: modeling intercellular communication by linking ligands to target genes." Nature methods 17.2 (2020): 159-162.
-> Deng, Yidi, Jarny Choi, and Kim-Anh Lê Cao. "Sincast: a computational framework to predict cell identities in single-cell transcriptomes using bulk atlases as references." Briefings in Bioinformatics 23.3 (2022): bbac088.
+Bian, Zhilei, et al. "Deciphering human macrophage development at single-cell resolution." Nature 582.7813 (2020): 571-576.
+Rajab, Nadia, et al. "An integrated analysis of human myeloid cells identifies gaps in in vitro models of in vivo biology." Stem cell reports 16.6 (2021): 1629-1643.
+van der Valk, Wouter H., et al. "A single-cell level comparison of human inner ear organoids with the human cochlea and vestibular organs." Cell reports 42.6 (2023).
+Browaeys, Robin, Wouter Saelens, and Yvan Saeys. "NicheNet: modeling intercellular communication by linking ligands to target genes." Nature methods 17.2 (2020): 159-162.
+Deng, Yidi, Jarny Choi, and Kim-Anh Lê Cao. "Sincast: a computational framework to predict cell identities in single-cell transcriptomes using bulk atlases as references." Briefings in Bioinformatics 23.3 (2022): bbac088.
 
 ---
 
