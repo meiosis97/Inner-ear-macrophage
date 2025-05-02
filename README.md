@@ -4,7 +4,7 @@ This repository stores all analysis code, pipelines, and figure‑generation scr
 
 ![Intro](./intro.png)
 
-# Click me to access the repository!!! :point_right: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15328483.svg)](https://doi.org/10.5281/zenodo.15328483)
+# Click me to access the repository!!! :point_right: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15328483.svg)](https://doi.org/10.5281/zenodo.15328483) :point_left:
 
 # Trophic and Temporal Dynamics of Macrophage Biology in Human Inner Ear Organogenesis
 
