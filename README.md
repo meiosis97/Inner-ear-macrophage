@@ -17,12 +17,6 @@
 
 ---
 
-### Keywords
-
-*Inner ear • Macrophages • Organogenesis • Hearing loss*
-
----
-
 ## Abstract
 
 Recent single‑cell transcriptomic approaches are uncovering the breadth and depth of cell diversity within the mammalian inner ear. Macrophages, detected from gestational week 7 in the human inner ear, persist into adulthood, yet remain poorly understood in terms of their origin and function. Using self‑generated and public scRNA‑seq data, we identify **seven distinct macrophage subtypes** spanning fetal weeks 7.5 – 18.4 and adulthood. Each subtype is linked to specific developmental stages and displays a unique gene‑expression profile, corroborating earlier histological evidence of resident and non‑resident macrophages in both the developing and adult human cochlea. We further show that the human inner ear is seeded by macrophages from both yolk sac and fetal liver origins, aligning with murine studies. Ligand‑receptor interaction analysis highlights potential macrophage contributions to inner ear organogenesis. Altogether, our findings provide new insights into the diverse and dynamic roles of inner ear macrophages.
