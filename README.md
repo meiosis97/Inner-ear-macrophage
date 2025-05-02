@@ -62,7 +62,7 @@ Deng, Yidi, Jarny Choi, and Kim-Anh Lê Cao. "Sincast: a computational framework
 
 For questions or collaboration inquiries, please open an [issue](../../issues) or email **[b.nayagam@unimelb.edu.au](mailto:b.nayagam@unimelb.edu.au)**.
 
-## Exciting GRNs!
+## Exciting GRNs of fetal inner ear macrophages!
 
 See my repository [NeighbourNet](https://github.com/meiosis97/NeighbourNet)
 
