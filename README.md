@@ -1,5 +1,6 @@
 # **About this repository**
-This repository stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper.
+This repository ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15328483.svg)](https://doi.org/10.5281/zenodo.15328483)
+) stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper.
 **Note:** The full data from Boaz et al. (2025) is not currently publicly available and has therefore been removed from this repository.
 
 ![Intro](./intro.png)
