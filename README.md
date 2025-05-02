@@ -48,7 +48,7 @@ Below is a high‑level guide to the directory structure and the purpose of each
 
 ---
 
-## How to Cite
+## Reference
 
 > Deng Y., Ehiogu B., Dabdoub A. *et al.* **Trophic and temporal dynamics of macrophage biology in human inner ear organogenesis.** (2025).
 > Please cite this work if it contributes to your research.
