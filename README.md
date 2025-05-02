@@ -6,12 +6,12 @@
 
 | Author                                | Affiliation                                                                                                                               |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Yidi Deng**<sup>1</sup>             | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia                              |
-| **Boaz Ehiogu**<sup>2,3</sup>         | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
-| **Alain Dabdoub**<sup>2,3</sup>       | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
-| **Kim‑Anh Lê Cao**<sup>1</sup>        | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia                              |
-| **Christine A. Wells**<sup>4,†</sup>  | Department of Anatomy and Physiology, The University of Melbourne, Australia                                                              |
-| **Bryony A. Nayagam**<sup>5,†\*</sup> | Department of Audiology and Speech Pathology, The University of Melbourne, Australia                                                      |
+| **Yidi Deng**             | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia                              |
+| **Boaz Ehiogu**      | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
+| **Alain Dabdoub**      | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
+| **Kim‑Anh Lê Cao**      | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia                              |
+| **Christine A. Wells**<sup>†</sup>  | Department of Anatomy and Physiology, The University of Melbourne, Australia                                                              |
+| **Bryony A. Nayagam**<sup>†\*</sup> | Department of Audiology and Speech Pathology, The University of Melbourne, Australia                                                      |
 
 <sup>†</sup> Equal contribution  <sup>\*</sup> Corresponding author: **[b.nayagam@unimelb.edu.au](mailto:b.nayagam@unimelb.edu.au)**
 
