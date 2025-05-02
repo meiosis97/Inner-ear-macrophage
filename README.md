@@ -1,26 +1,60 @@
 > **About this repository**
-> This repository stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper. **Note**: The full data from Boaz et al. (2025) is not currently publicly available and has therefore been removed from this repository.
+> This repository stores all analysis code, pipelines, and figure‑generation scripts that underpin the manuscript below. Clone or download the repo to reproduce every result and visualisation described in the paper.
+> **Note:** The full data from Boaz et al. (2025) is not currently publicly available and has therefore been removed from this repository.
 
 # Trophic and Temporal Dynamics of Macrophage Biology in Human Inner Ear Organogenesis
 
-| Author | Affiliation |
-|--------|-------------|
-| **Yidi Deng**<sup>1</sup> | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia |
-| **Boaz Ehiogu**<sup>2,3</sup> | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
-| **Alain Dabdoub**<sup>2,3</sup> | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
-| **Kim‑Anh Lê Cao**<sup>1</sup> | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia |
-| **Christine A. Wells**<sup>4,†</sup> | Department of Anatomy and Physiology, The University of Melbourne, Australia |
-| **Bryony A. Nayagam**<sup>5,†\*</sup> | Department of Audiology and Speech Pathology, The University of Melbourne, Australia |
+| Author                                | Affiliation                                                                                                                               |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Yidi Deng**<sup>1</sup>             | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia                              |
+| **Boaz Ehiogu**<sup>2,3</sup>         | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
+| **Alain Dabdoub**<sup>2,3</sup>       | Sunnybrook Research Institute, Toronto, Canada <br> Department of Otolaryngology – Head & Neck Surgery, The University of Toronto, Canada |
+| **Kim‑Anh Lê Cao**<sup>1</sup>        | Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia                              |
+| **Christine A. Wells**<sup>4,†</sup>  | Department of Anatomy and Physiology, The University of Melbourne, Australia                                                              |
+| **Bryony A. Nayagam**<sup>5,†\*</sup> | Department of Audiology and Speech Pathology, The University of Melbourne, Australia                                                      |
 
-<sup>†</sup> Equal contribution  <sup>\*</sup> Corresponding author: **b.nayagam@unimelb.edu.au**
+<sup>†</sup> Equal contribution  <sup>\*</sup> Corresponding author: **[b.nayagam@unimelb.edu.au](mailto:b.nayagam@unimelb.edu.au)**
+
+---
+
+### Keywords
+
+*Inner ear • Macrophages • Organogenesis • Hearing loss*
 
 ---
 
 ## Abstract
+
 Recent single‑cell transcriptomic approaches are uncovering the breadth and depth of cell diversity within the mammalian inner ear. Macrophages, detected from gestational week 7 in the human inner ear, persist into adulthood, yet remain poorly understood in terms of their origin and function. Using self‑generated and public scRNA‑seq data, we identify **seven distinct macrophage subtypes** spanning fetal weeks 7.5 – 18.4 and adulthood. Each subtype is linked to specific developmental stages and displays a unique gene‑expression profile, corroborating earlier histological evidence of resident and non‑resident macrophages in both the developing and adult human cochlea. We further show that the human inner ear is seeded by macrophages from both yolk sac and fetal liver origins, aligning with murine studies. Ligand‑receptor interaction analysis highlights potential macrophage contributions to inner ear organogenesis. Altogether, our findings provide new insights into the diverse and dynamic roles of inner ear macrophages.
 
 ---
 
-## Contact
-For questions or collaboration inquiries, please open an [issue](../../issues) or email **b.nayagam@unimelb.edu.au**.
+## Repository layout
 
+Below is a high‑level guide to the directory structure and the purpose of each folder/file.
+
+| Path                               | Purpose                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `bian/`                            | Analysis of the **Bian et al. 2020** dataset.<br>• `data.txt` raw count matrix (processed)<br>• `anno.txt` cell‑level metadata<br>• `bian.R` end‑to‑end analysis script (QC → clustering → DEG)<br>• `bian.cluster.deg.txt`, `bian.tissue.deg.txt` differential‑expression summaries<br>• `s.bian.rds` pre‑computed Seurat object |
+| `bryony/`                          | Fetal inner‑ear dataset generated by Boaz Ehiogu.<br>• `preprocess.R`, `integration.R`, `get.mac.R` preprocessing and macrophage extraction<br>• `deg/` DEG results by sample (`s1`–`s3`) and combined<br>• `*.rds` individual and merged Seurat objects                                                               |
+| `vandervalk/`                      | **Van der Valk et al.** adult & fetal cochlea data.<br>Structure parallels *bryony*: preprocessing scripts, `deg/` sub‑dir with adult/fetal DEGs, and Seurat objects (`f75.rds`, `f92.rds`, `adult.rds`, etc.).                                                                                                              |
+| `rajab/`                           | Single `rajab.rds` Seurat object for the **Rajab et al.** validation dataset.                                                                                                                                                                                                                                                |
+| `deprecated.script/`               | Legacy code that was superseded; kept for transparency (e.g. early NNet prototype).                                                                                                                                                                                                                                          |
+| `figure1/`, `figure2/`, `figure3/` | Self‑contained folders to reproduce main‑text figures.<br>Each contains:<br>• `analysis.R` helper functions<br>• `figureX.R` plotting script<br>• Intermediate objects (`*.rds`, `*.csv`, `deg.cluster.txt`, enrichment outputs…).                                                                                           |
+| `suppfigure1/` – `suppfigure6/`    | Scripts (and where needed RDS objects) to reproduce all supplementary figures. Folder‑specific notes:<br>• `suppfigure5/` stores Sincast objects used in Figure S5.<br>• `suppfigure6/` includes CellChat outputs for early vs. middle fetal windows.                                                                        |
+| `others/`                          | Shared resources: ligand–receptor databases (`lr_network_human_21122021.rds`), NSGA‑II optimised networks, and macrophage gene‑module definitions.                                                                                                                                                                           |
+
+> **Tip:** Large `.rds` files are provided for convenience but can be regenerated by running their companion scripts if you prefer a fully reproducible workflow.
+
+---
+
+## How to Cite
+
+> Deng Y., Ehiogu B., Dabdoub A. *et al.* **Trophic and temporal dynamics of macrophage biology in human inner ear organogenesis.** (2025).
+> Please cite this work if it contributes to your research.
+
+---
+
+## Contact
+
+For questions or collaboration inquiries, please open an [issue](../../issues) or email **[b.nayagam@unimelb.edu.au](mailto:b.nayagam@unimelb.edu.au)**.
